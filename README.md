@@ -1,32 +1,26 @@
----
-title: "inSilecoMod"
-output:
-  md_document
----
-
 <!--
 
 setwd('/users/davidbeauchesne/rPackages/inSilecoMod/')
 rmarkdown::render('./README.Rmd', 'md_document')
 
 -->
-
-# Description
+Description
+===========
 
 This package contains the functions for ecological models used in the
 [disturbance ecology inSileco blog series](https://insileco.github.io/).
 
-## Status
+Status
+------
 
-
-# Installation
+Installation
+============
 
 The easiest way to install `inSilecoMod` is to use the
-[*devtools*](http://cran.r-project.org/web/packages/devtools/index.html) package:
+[*devtools*](http://cran.r-project.org/web/packages/devtools/index.html)
+package:
 
-```{r eval=FALSE}
-install.packages("devtools")
-devtools::install_github("inSileco/inSilecoMod")
-```
+    install.packages("devtools")
+    devtools::install_github("inSileco/inSilecoMod")
 
 ### To do list
